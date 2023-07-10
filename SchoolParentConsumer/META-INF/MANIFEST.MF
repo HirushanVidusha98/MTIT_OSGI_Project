@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SchoolParentConsumer
+Bundle-SymbolicName: SchoolParentConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: schoolparentconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: SchoolParentConsumer
+Import-Package: com,
+ org.osgi.framework;version="1.3.0",
+ parent.model,
+ parentService,
+ parentServiceImpl,
+ parentStore
+Bundle-ActivationPolicy: lazy
